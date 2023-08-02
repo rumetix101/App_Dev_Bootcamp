@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Osarumen Otabor</title>
+    </head>
+    <body>
+          <h1>Images in HTML</h1>
+          <P>Add images into a webpage</P>
+          <img src="images/CityRoof.jpg" title="Vist Benin City" alt="a photo of Brown city roofs" width="50%">
+          <figure>
+            <img src="images/CityRoof.jpg" title="Vist Benin City" alt="a photo of Brown city roofs" width="100%">
+            <img src="images/CityRoof.jpg" title="Vist Benin City" alt="a photo of Brown city roofs" width="49%">
+            <img src="images/CityRoof.jpg" title="Vist Benin City" alt="a photo of Brown city roofs" width="49%">
+            <figcaption>Picture of Benin City</figcaption>
+
+          </figure>
+          <h1 id="picTag">Picture tag</h1>
+           <p>Resize the browser window to load different photos of Benin  City</p>
+            <picture>
+                <source media="(min-width:1100px)" srcset="images/CityRoof.jpg">
+                <source media="(min-width):800px" srcset="images/Food.jpg">
+                <source media="(min-width:00px)" srcset="images/Games.jpg">
+                <img src="images/MarketWoman.jpg" alt="photo of market woman selling clothes" width="49%">
+            </picture>
+
+            <!-- LINKS-->
+          <h1 id="links">Links to other sites</h1>
+              <a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Visit QCC website</a>
+              <p><a href="mailto:rumetix@aol.com">Email to Arc.OT</a></p>
+              <p><a href="mailto:hwu@qcc.cuny.edu">Email to prof. Wu</a></p>
+              
+              <p>Follow us:</p>
+              <figure>
+                <a href="https://www.tiktok.com/@qcc_cuny" target="_blank" rel="noopener noreferrer">
+                    <img src="images/tiktok_logo.jpg" alt="Image of TikTok log: follow us in TikTok" width="20%">
+                </a>
+                <a href="https://twitter.com/qcc_cuny" target="_blank" rel="noopener noreferrer">
+                    <img src="images/twitter_logo.jpg" alt="Image of Twitter logo: follow us in Twitter" width="20%">
+                </a>
+            </figure>
+          <h1>Link to a specific part of the same web page</h1>
+                <ul>
+                    <li>
+                        <a href="#">Top of the page</a>
+                    </li>
+                    <li>
+                        <a href="#picTag">Picture Tag</a>
+                    </li>
+                    <li>
+                        <a href="#links">Links </a> 
+                        
+                    </li>
+                    <li>
+                        <a href="#picTag">Picture Tag</a>
+
+                    </li>
+                </ul>
+            <h1>map tag</h1>
+                <figure>
+                   <img src="images/MarketWoman.jpg" width="800px" usemap="#sell">
+                </figure>
+            <map name="sell">
+        <area shape="rect" coords="10px,400px,600px,130px" href="https://www.tarpsplus.com/collections/canvas-tarps" target="_blank" rel="noopener noreferrer">
+        <area shape="circle" coords="400px,600px,100px" href="https://www.amazon.com/Collapsible-Colander-Silicone-Kitchen-Strainer/dp/B07CTJFSSJ/ref=asc_df_B07CTJFSSJ?tag=bingshoppinga-20&linkCode=df0&hvadid=80401840125258&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584001436616333&th=1" target="_blank" rel="noopener noreferrer">
+
+            </map>
+
+            <hr>
+            <footer>Day 1: HTML review @ Osarumen Otabor</footer>
+
+    
+            
+
+    </body>
+</html>
